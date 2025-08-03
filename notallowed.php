@@ -1,0 +1,1 @@
+<?php if( $_SESSION['user']!='tutor'  ) header('Location: index.php');     ?>
